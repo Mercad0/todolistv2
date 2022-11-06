@@ -1,3 +1,88 @@
 /* 
     General Styles
 */
+body {
+    background: linear-gradient(#E58C8A, #EEC0C6);
+    background-attachment: fixed;
+    height: 100%;
+    
+}
+
+
+.todoListBox {
+    display: flexbox;
+    margin: 15px auto;
+    margin-top: 50px;
+    padding-top: 10px;
+    background-color: floralwhite;
+    height: fit-content;
+    min-width: 100px;
+    max-width: 500px;
+    border-radius: 50px;
+}
+
+.todo-List {
+    display: flex;
+}
+
+
+.addButton {
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    background-color: transparent;
+    border: none;
+    
+    
+}
+
+.todoInput {
+    border-radius:  100px 5px;
+    font-size: 15px;
+    font-weight: 200;
+    padding: 5px 20px 5px;
+    border: 1px solid black;
+    color: black;
+    font-weight: 500;
+
+}
+
+.todoBox {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    font-weight: 500;
+    color: black;
+
+}
+
+li {
+    margin-top: 10px;
+    height: fit-content;
+    width: fit-content;
+    border-bottom: 2px solid green;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+}
+
+.remove-btn {
+    margin-top: 13px;
+    margin-left: 5px;
+    display: flex;
+    border: none;
+    color: red;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.itemsLeft{
+    color: red;
+    font-weight: 900;
+}
+.pink {
+    background: #e89d9d;
+    padding: 4px;
+    border-radius: 45px 45px 255px 255px;
+}
