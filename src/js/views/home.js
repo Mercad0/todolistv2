@@ -23,7 +23,7 @@ export const Home = () => {
           <TodoList setTodos={setTodos} todos={todos} />
           <span class="pink">
             {" "}
-            Todos Left: <span class="itemsLeft">{"" + todos.length}</span>{" "}
+        <span className="itemsLeft">{"Todos Left" + " " + todos.length}</span>{" "}
           </span>
         </div>
       </div>
