@@ -21,10 +21,8 @@ export const Home = () => {
         />
         <div className="todoAI">
           <TodoList setTodos={setTodos} todos={todos} />
-          <span className="pink">
-            {" "}
-        <span className="itemsLeft">{"Todos Left" + " " + todos.length}</span>{" "}
-          </span>
+
+        <div className="itemsLeft">{"Todos Left" + " " + todos.length}</div>{" "}
         </div>
       </div>
     </div>
